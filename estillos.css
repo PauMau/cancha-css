@@ -1,0 +1,79 @@
+.contenedor{
+	background: #2ECC71;
+	width: 800px;
+	height: 400px;
+	border: 1px solid black;
+}
+.cancha{
+	background: #2ECC71;
+	width: 750px;
+	height: 363px;
+	border: 3px solid white;
+	position: absolute;
+	left: 30px;
+	top: 23px;
+}
+.arco1{
+	background: #2ECC71;
+	border: 3px solid white;
+	width: 100px;
+	height: 150px;
+	float: right;
+	position:relative;
+	top: 115px;	
+	margin-right: 23px;
+}
+.arco2{
+	background: #2ECC71;
+	border: 3px solid white;
+	width: 100px;
+	height: 150px;
+	float:left;
+	position:relative;
+	top: 115px;
+	margin-left: 21px;
+}
+.circulo{
+	 background: #2ECC71;
+     width: 100px;
+     height: 100px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #2ECC71;
+     position:relative;
+     top: 145px;
+     margin-left: 350px;
+     border:3px solid white;
+     color: #2ECC71;
+ }
+ .player1{  /*justo al centro*/
+ 	background: red;
+ 	width:  20px;
+ 	height: 20px;
+ 	border-radius: 50%;
+  	position: relative;
+ 	top: 5px;
+ 	margin-left:395px;
+
+ }
+ .player2{   /*arco derecho*/
+	background: red;
+ 	width:  20px;
+ 	height: 20px;
+ 	border-radius: 50%;
+ 	position: relative;
+ 	top:115px;
+ 	margin-left: 640px;
+
+ }
+ .player3{  /*arco izquierdo*/
+ 	background: red;
+ 	width:  20px;
+ 	height: 20px;
+ 	border-radius: 50%;
+ 	position: relative;
+ 	top: -30px;
+ 	margin-left:115px;
+
+ }
